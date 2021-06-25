@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{                /* first-part */
+    color: white;
+    background-color: rgb(35, 124, 207);
+    height: 120px;
+    width: 100%;
+}
+img.logo{
+    float: left;
+    width: 100px;
+    height: 32px;    
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.search-icon{
+    padding-left: 20px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 120px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: white;
+}
+a.active, a:hover{
+    background: rgb(151, 156, 216); 
+    transition: .5s;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+.first-part{
+    background-color: rgb(35, 124, 207);
+    padding-left: 76px;
+    padding-right: 20px;
+    height: 470px;
+}
+.font1{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    color:white;
+    background-color: #140f0fbf;
+    width: 155px;
+    height: 42px;
+    border-radius: 36px;
+    /*font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+img.gloves{
+    height: 450px;
+    width: 500px;
+    display: inline-flex;
+    float: right;
+    display: inline;
+    margin-top: -409px;
+    margin-right: 90px;
+}
+.second-part{
+    height: 150px;
+    padding: 63px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.third-part{
+    height: 577px;
+    background-color: rgb(4, 4, 31);
+    /* padding: 7px; */
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 46px;
+  /*  border: 4px solid rgb(225, 0, 255); */
+}
+.third-part > div{
+    background-color: white;
+    /* margin-top: 50px; */
+    margin: auto;
+    margin-right: 50px;
+    height: 450px;
+    /* width: 290px; */
+    width: 100%;
+    padding: 55px;
+    /* border: double 6px rgb(4, 4, 31); */
+    justify-content: space-around;
+  /*  border: 4px solid red; */
+}
+.repeat{
+    height: 510px;
+    background-color: rgb(4, 4, 31);;
+    display: inline-flex;
+    /* height: 380px; */
+    width: 100%;
+    flex-wrap: nowrap;
+    padding-left: 46px;
+  /*  border: 4px solid rgb(112, 0, 240); */
+}
+.repeat > div{
+    background-color: white;
+    margin: auto;
+    margin-right: 50px;
+    height: 450px;
+    width: 100%;
+    padding: 55px;
+    justify-content: space-around;
+  /*  border: 4px solid red; */
+}
+.img1{
+    margin-top: -10px;
+    margin-left: -7px;
+    height: 320px;
+    width: 280px;
+    }
+.img2{
+    margin-top: -10px;
+    margin-left: -11px;
+    height: 350px;
+    width: 300px;
+}
+.img3{
+    margin-top: -10px;
+    margin-left: -9px;
+    height: 320px;
+    width: 280px;
+}
+.price{
+    text-align: center;
+}
+.Fourth-part{
+    background-color: white;
+    padding: 63px;
+    font-size: larger;
+    height: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  /*  border: 4px solid chartreuse; */
+}
+.font2{
+    font-size: 56px;
+    font-weight: bold;
+}
+.fifth-part{
+    padding: 65px;
+    display: flex;
+    height: 650px;
+    background-color: rgb(43, 144, 238);
+  /*  border: 4px solid rgb(59, 8, 245); */
+}
+.fifth-left{
+    margin: 5px;
+    float: left;
+    margin-top: 85px;
+}
+.fifth-font3{
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+}
+.fifth-right{
+    float: right;
+    display: inherit;
+    background-color: white;
+    padding-right: 0px;
+    padding-left: 20px; 
+    padding-bottom: 17px;
+    padding-top: 16px;
+   /* padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px; */
+}
+.fifth-font4{
+    color: white;
+    font-size: 18px;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-stretch: extra-expanded;
+}
+.fifth-btn{
+    color:white;
+    background-color: #140f0fbf;
+    width: 163px;
+    height: 54px;
+    border-radius: 36px;
+}
+.fifth-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.sixth-part{
+    height: 650px;
+    background-color: white;
+   /* border: 4px solid rgb(255, 4, 150); */
+}
+.six-font1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 23px;
+    font-weight: normal;
+    font-size: larger;
+}
+.sub-sixth{
+    background-color: rgb(43, 144, 238);
+    padding: 9%;
+    padding-top: 40px;
+    margin: 83px;
+    margin-top: 57px;
+    height: 463px;
+  /*  border: 2px solid black;*/
+}
+.john{
+   /* border: 2px solid rgb(255, 13, 25);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: 540px;
+    margin-right: 347px*/
+    padding-left: 379px;
+}
+.john-post{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.john-content{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: larger;
+}
+
+
+
+
+.seven-part{
+    height: 800px;
+    background-color: rgb(43, 144, 238);;
+}
+.seven-left{
+    height: 500px;
+    background-color: rgb(1, 14, 53);
+    float: left;
+    padding-left: 17%;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 90px;
+    width: 42%;
+    display: block;
+}
+.soc{
+    text-align: center;
+    font-size: 142px;
+    margin-top: 100px;
+    margin-right: 100px;
+    padding-right: 10px;
+    margin-left: -96px;
+    margin-top: 120px;
+}
+.c{
+    font-size: 194px;
+}
+.seven-right{
+    height: 500px;
+    width: 42%;
+    background-image: url("F:/SimfoTraining/Static_Web/ASSETS/boll_bg.png");
+    float: right;
+    margin-right: 85px;
+    margin-top: 90px;
+    padding-right: 17%;
+    display: block;
+}
+.seven-ok{
+    padding-top: 50px;
+    padding-left: 29px;
+}
+.form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    /* background: blue; */
+    margin-top: 30px;
+}
+.form input{
+    width: 300%;
+    height: 100%;
+    color: black;
+    padding-top: 20px;
+    padding-left: 60px;
+    /* border-bottom: 2px solid black; */
+    border: none;
+}
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 250%;
+    height: 100%;
+    /* background-color: wheat; */
+    pointer-events: none;
+    margin-left: 28px;
+    border-bottom: 1px solid black;
+}
+.content-name{
+    margin-top: 10px;
+    margin-left: 63px;
+    margin-right: 20px;
+}
+.seven-btn{
+    height: 53px;
+    width: 175px;
+    border-radius: 29px;
+    margin-left: 200px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.seven-btn:hover{
+    background-color: rgb(1, 14, 53);
+    color: white;
+
+}
+
+
+
+
+.seven-bottom{
+    color: white;
+    height: 200px;
+    width: 89%;
+    background-color: rgb(1, 14, 53);
+    margin-left: 73px;
+    padding: 18px;
+    /* margin-right: 65px; */
+    margin-top: 647px;
+    border: 4px solid  rgb(12 22 32);
+    border-radius: 2px;
+    position: absolute;
+    /* padding-left: 640px;
+    padding-right: 640px; */
+}
+.subscribe{
+    color: black;
+    width: 59%;
+    height: 56px;
+    border-radius: 20px;
+    padding-left: 23px;
+    float: right;
+    /* background-color: rgba(21, 180, 243, 0.774); */
+    cursor: pointer;
+    z-index: 1;
+    margin-top: -50px;
+}
+.lable{
+    padding-right: 20px;
+}
+.eight-part{
+    background-color: rgb(1, 14, 53);
+    height: 450px;
+    padding: 15px;
+}
+.eight-up{
+    display: flex;
+    flex-direction: row;
+}
+.sub-eight{
+    display: flex;
+    justify-content:space-around;
+    padding: 83px;
+    margin-right: 38px;
+}
+.address{
+    color: white;
+    display: inline-flex;
+    padding: 16px;
+}
+.eight-icon1, .eight-icon2, .eight-icon3{
+    background-color: white;
+    width: 47px;
+    height: 47px;
+    padding: 10px;
+    border-radius: 2px;
+    border-radius: 8px;
+}
+
+.eight-header{
+    width: 45%;
+    float: right;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 37px;
+    padding: 41px;
+    margin-right: 340px;
+    margin-bottom: 2px;
+    margin-top: -37px;
+}
+
+.foot{
+    color: white;
+    background-color: rgb(43, 144, 238);
+    height: 51px;
+    text-align: center;
+    padding: 19px;
+}
+
+
+/* 
+.btn{
+
+}
+.btn-sub{
+
+}
+.btn-sub2{
+    
+} */
