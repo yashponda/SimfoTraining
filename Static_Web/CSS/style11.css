@@ -229,7 +229,7 @@ img.gloves{
     align-items: center;
     margin-left: 540px;
     margin-right: 347px*/
-    padding-left: 379px;
+    padding-left: 448px;
 }
 .john-post{
     text-align: center;
@@ -249,7 +249,7 @@ img.gloves{
 
 .seven-part{
     height: 800px;
-    background-color: rgb(43, 144, 238);;
+    background-color: rgb(43, 144, 238);
 }
 .seven-left{
     height: 500px;
@@ -279,7 +279,7 @@ img.gloves{
 .seven-right{
     height: 500px;
     width: 42%;
-    background-image: url("F:/SimfoTraining/Static_Web/ASSETS/boll_bg.png");
+    background-image: url("../ASSETS/boll_bg.png");
     float: right;
     margin-right: 85px;
     margin-top: 90px;
@@ -326,18 +326,16 @@ img.gloves{
     height: 53px;
     width: 175px;
     border-radius: 29px;
-    margin-left: 200px;
+    margin-left: 228px;
     margin-top: 40px;
     cursor: pointer;
+    text-align: center;
 }
 .seven-btn:hover{
     background-color: rgb(1, 14, 53);
     color: white;
 
 }
-
-
-
 
 .seven-bottom{
     color: white;
@@ -354,18 +352,58 @@ img.gloves{
     /* padding-left: 640px;
     padding-right: 640px; */
 }
+input{
+    text-align: left;
+    width: 400px;
+    height: 30px;
+    outline: 0;
+}
 .subscribe{
+    position: relative;
+    display: inline-block;
     color: black;
-    width: 59%;
+    width: 42%;
     height: 56px;
-    border-radius: 20px;
     padding-left: 23px;
     float: right;
     /* background-color: rgba(21, 180, 243, 0.774); */
     cursor: pointer;
     z-index: 1;
     margin-top: -50px;
+    margin-right: 181px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
+#submit{
+    width: 140px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(43, 144, 238);
+    margin-top: 35px;
+    margin-right: 60px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#sub_btn{
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color:rgb(43, 144, 238);
+    border: none;
+    color: white;
+    font-size: 19px;
+    margin: 17px;
+}
+
+/*.subscribe::after{
+    content: Subscribe;
+    color: white;
+    background-color: rgb(43, 144, 238);
+    width: 104px;
+    right: 17px;
+}
+*/
 .lable{
     padding-right: 20px;
 }
@@ -419,14 +457,3 @@ img.gloves{
     padding: 19px;
 }
 
-
-/* 
-.btn{
-
-}
-.btn-sub{
-
-}
-.btn-sub2{
-    
-} */
