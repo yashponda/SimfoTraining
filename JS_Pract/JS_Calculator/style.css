@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cal_border{
+    width: 44%;
+    height: 620px;
+    text-align: center;
+    align-items: center;
+    background-color: #3b3939e8;
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 55px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+.display_num{
+    width: 88%;
+    height: 81px;
+    margin-left: 41px;
+    background-color: white;
+    margin-bottom: 0px;
+    border-radius: 26px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+
+}
+
+#root{ 
+    width: 97%;
+    height: 62px;
+    border: none;
+    margin-top: 10px;
+    border: 3px solid black;
+    text-align: right;
+    font-size: 30px;
+}
+
+.btn7, .btn8,.btn9,.btn_div, .btn4,.btn5,.btn6,.btn_mul, .btn1,.btn2,.btn3,.btn_min, 
+.btn0,.btn_dot,.btn_plus,.btn_equal{
+    padding: 8px;
+    margin: 15px;
+    align-items: center;
+    border-radius: 20px;
+    width: 89px;
+    height: 76px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 48px;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.btn_equal{
+    color: white;
+    background-color: rgb(255 178 37 / 92%);
+    border: black;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
