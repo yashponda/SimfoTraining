@@ -8,9 +8,9 @@ div{
 }
 button{
   padding: 15px 20px;
-  background-color: aqua;
+  background-color: #7706a670;
   color: black;
-  border: 3px solid rgb(240, 243, 245);
+  border: 3px solid #8096e3;
   outline: none;
   border-radius: 7px;
   cursor: pointer;
