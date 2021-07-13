@@ -7,37 +7,38 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="F:\SimfoTraining\JS_Pract\JS_Calculator\style.css">
     <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/divide">
+    <script src="calc.js"></script>
     <i class="fas fa-divide"></i>
 </head>
 <body>
-    <div class="cal_border"><br><br>
+    <div class="cal_border"><br><br> 
             <div class="display_num">
-                <input type="text" id="root">
+                <input type="text" id="root" placeholder="0 " >
             </div><br>
                 <div class="buttons">
                     <div>
-                        <input type="button" class="btn7" value= "7" onclick="root.value+='7'"/> 
-                        <input type="button" class="btn8" value="8" onclick="root.value+='8'"/>
-                        <input type="button" class="btn9" value="9" onclick="root.value+='9'"/>
-                        <input type="button" class="btn_div" value="%" onclick="root.value+='%'"/>
+                        <input type="button" class="btn7" value= "7" onclick="display('7')"/> 
+                        <input type="button" class="btn8" value="8" onclick="display('8')"/>
+                        <input type="button" class="btn9" value="9" onclick="display('9')"/>
+                        <input type="button" class="btn_div" value="%" onclick="display('/')"/>
                     </div>
                     <div><br>
-                        <input type="button" class="btn4" value="4" onclick="root.value+='4'"/>
-                        <input type="button" class="btn5" value="5" onclick="root.value+='5'"/>
-                        <input type="button" class="btn6" value="6" onclick="root.value+='6'"/>
-                        <input type="button" class="btn_mul" value="x" onclick="root.value+='x'"/>
+                        <input type="button" class="btn4" value="4" onclick="display('4')"/>
+                        <input type="button" class="btn5" value="5" onclick="display('5')"/>
+                        <input type="button" class="btn6" value="6" onclick="display('6')"/>
+                        <input type="button" class="btn_mul" value="x" onclick="display('*')"/>
                     </div>
                     <div><br>
-                        <input type="button" class="btn1" value="1" onclick="root.value+='1'"/>
-                        <input type="button" class="btn2" value="2" onclick="root.value+='2'"/>
-                        <input type="button" class="btn3" value="3" onclick="root.value+='3'"/>
-                        <input type="button" class="btn_min" value="-" onclick="root.value+='-'"/>
+                        <input type="button" class="btn1" value="1" onclick="display('1')"/>
+                        <input type="button" class="btn2" value="2" onclick="display('2')"/>
+                        <input type="button" class="btn3" value="3" onclick="display('3')"/>
+                        <input type="button" class="btn_min" value="-" onclick="display('-')"/>
                     </div>
                      <div><br>
-                        <input type="button" class="btn0" value="0" onclick="root.value+='0'"/>
-                        <input type="button" class="btn_dot" value="." onclick="root.value+='.'"/>                           
-                        <input type="button" class="btn_plus" value="+" onclick="root.value+='+'"/>
-                        <input type="button" class="btn_equal" value="=" onclick="root.value+='='"/>
+                        <input type="button" class="btn0" value="0" onclick="display('0')"/>
+                        <input type="button" class="btn_dot" value="." onclick="display('.')"/>                           
+                        <input type="button" class="btn_plus" value="+" onclick="display('+')"/>
+                        <input type="button" class="btn_equal" value="=" onclick="oper()"/>
                     </div>
                 </div>
         </div>          
