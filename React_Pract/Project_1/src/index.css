@@ -30,13 +30,13 @@
     margin-left: 130px;
 }
 .nav2{
-    margin-left: 36px;
+    margin-left: 44px;
     padding-right: 0px;
     padding-left: 134px;
 }
 .nav3{
     margin-left: 0px;
-    margin-right: 186px;
+    margin-right: 173px;
     padding-right: 39px;
 }
 
@@ -61,10 +61,18 @@
     margin-top: 0px;
     margin-left: -74px;
 }
-
+.avatar_name_email{
+    display: flex;
+    padding-left: 40px;
+    justify-content: space-between;
+}
 .name_email{
     text-align: left;
-    margin-left: -104px;
+    margin-left: 48px;
+}
+.selection{
+    display: flex;
+    margin-right: 77px;
 }
 .select-field{
     display: flex;
@@ -76,7 +84,7 @@
 .owner_status{
     padding: 5px;
     margin: 14px;    
-    margin-right: 29px;
+    margin-right: 38px;
     width: 100px;
     align-items: center;
     text-align: center;
@@ -117,6 +125,8 @@
                 /*styling for profile component*/
 .profile{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 270px;
+    height: 550px;
     margin: 50px;
     margin-left: 588px;
     margin-right: 517px;

@@ -9,7 +9,7 @@ import Pagination from './Pagination';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  
+
   const [counter, setCounter] = useState(1);
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -24,72 +24,76 @@ function App() {
   return (
     <div className="App_final" >
       <UpperText />
-      <Navbar /><br/><br/>
+      <Navbar /><br /><br />
       {
         data && data.map((item) =>
           <>
-            <div className="users" key={data.id}>
-              <img id="img" className="avatar" style={{ borderRadius: "80px", marginLeft: "-10px", cursor: "pointer", width: "90px" }}
-                src={item.avatar} alt="avatar"
+            <div className="avatar_name_email">
+              <div className="users" key={data.id}>
+                <img id="img" className="avatar" style={{ borderRadius: "80px", marginLeft: "-10px", cursor: "pointer", width: "90px", marginBottom: "5px" }}
+                  src={item.avatar} alt="avatar"
 
-                //when hover on image this will run
-                onMouseOver={() => setActive(item.id)}
-                onMouseLeave={() => setActive(null)} /><br /><br />
+                  //when hover on image this will run
+                  onMouseOver={() => setActive(item.id)}
+                  onMouseLeave={() => setActive(null)} /><br /><br />
 
-              {
-                active && (active === item.id) && (
-                  <div>
-                    <Profile item={item} />
-                  </div>
-                )
-              }
-              <div className="name_email">
-                <h2 style={{ fontFamily: "Cambria", fontSize: "15px" }}>
-                  {item.first_name} {"   "}{item.last_name}
-                </h2><br />
-                <p style={{ fontFamily: "Cambria" }}>{item.email}</p>
+                {
+                  active && (active === item.id) && (
+                    <div>
+                      <Profile item={item} />
+                    </div>
+                  )
+                }
+                <div className="name_email">
+                  <h2 style={{ fontFamily: "Cambria", fontSize: "15px" }}>
+                    {item.first_name} {"   "}{item.last_name}
+                  </h2><br />
+                  <p style={{ fontFamily: "Cambria" }}>{item.email}</p>
+                </div>
               </div>
 
+
               <div className="select-field">
-                {(item.id === 1) && (
-                  <div className="owner_status" style={{ color: "#32e71a" }}>Active</div>
-                )}
-                {(item.id !== 1) && (
-                  <select className="select">
-                    <option value="Green">Active</option>
-                    <option value="Black">Inactive</option>
-                  </select>
-                )}
+                <div className="selection">
+                  {(item.id === 1) && (
+                    <div className="owner_status" style={{ color: "#32e71a" }}>Active</div>
+                  )}
+                  {(item.id !== 1) && (
+                    <select className="select">
+                      <option value="Green">Active</option>
+                      <option value="Black">Inactive</option>
+                    </select>
+                  )}
 
-                {(item.id === 1) && (
-                  <div className="owner_status" > Owner </div>
-                )}
-                {(item.id !== 1) && (
-                  <select className="select">
-                    <option value="Green">Owner</option>
-                    <option value="Black">Manager</option>
-                    <option value="Black">Read</option>
-                  </select>
-                )}
+                  {(item.id === 1) && (
+                    <div className="owner_status" > Owner </div>
+                  )}
+                  {(item.id !== 1) && (
+                    <select className="select">
+                      <option value="Green">Owner</option>
+                      <option value="Black">Manager</option>
+                      <option value="Black">Read</option>
+                    </select>
+                  )}
 
-                {(item.id === 1) && (
-                  <span className="lock" >
-                    <LockOutlinedIcon />
-                  </span>
-                )}
-                {(item.id !== 1) && (
-                  <span className="delete" >
-                    <DeleteForeverOutlinedIcon />
-                  </span>
-                )}
-
+                  {(item.id === 1) && (
+                    <span className="lock" >
+                      <LockOutlinedIcon />
+                    </span>
+                  )}
+                  {(item.id !== 1) && (
+                    <span className="delete" >
+                      <DeleteForeverOutlinedIcon />
+                    </span>
+                  )}
+                </div>
               </div>
             </div>
           </>
         )
       }
       <button className="save_button"> Save </button><br /><br />
-      <Pagination setCounter= {setCounter}/><br />
+      <Pagination setCounter={setCounter} /><br />
     </div>
   );
 }
