@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SimfoTraining/React_Pract/Project_1/static/css/main.0b8abaa2.chunk.css",
+    "main.js": "/SimfoTraining/React_Pract/Project_1/static/js/main.e6ff5383.chunk.js",
+    "main.js.map": "/SimfoTraining/React_Pract/Project_1/static/js/main.e6ff5383.chunk.js.map",
+    "runtime-main.js": "/SimfoTraining/React_Pract/Project_1/static/js/runtime-main.fdb241ae.js",
+    "runtime-main.js.map": "/SimfoTraining/React_Pract/Project_1/static/js/runtime-main.fdb241ae.js.map",
+    "static/css/2.4be38407.chunk.css": "/SimfoTraining/React_Pract/Project_1/static/css/2.4be38407.chunk.css",
+    "static/js/2.c43b92d5.chunk.js": "/SimfoTraining/React_Pract/Project_1/static/js/2.c43b92d5.chunk.js",
+    "static/js/2.c43b92d5.chunk.js.map": "/SimfoTraining/React_Pract/Project_1/static/js/2.c43b92d5.chunk.js.map",
+    "index.html": "/SimfoTraining/React_Pract/Project_1/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/SimfoTraining/React_Pract/Project_1/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.0b8abaa2.chunk.css.map": "/SimfoTraining/React_Pract/Project_1/static/css/main.0b8abaa2.chunk.css.map",
+    "static/js/2.c43b92d5.chunk.js.LICENSE.txt": "/SimfoTraining/React_Pract/Project_1/static/js/2.c43b92d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdb241ae.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.c43b92d5.chunk.js",
+    "static/css/main.0b8abaa2.chunk.css",
+    "static/js/main.e6ff5383.chunk.js"
+  ]
+}
