@@ -3,6 +3,7 @@
   "homepage": "https://yashponda.github.io/SimfoTraining/React_Pract/Project_1/",
   "version": "0.1.0",
   "private": true,
+  "workspaces": ["packages/*"],
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",

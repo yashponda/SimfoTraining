@@ -1,0 +1,4 @@
+[build]
+    base    = "SimfoTraining/React_Pract/Project_1/"
+    publish = "SimfoTraining/React_Pract/Project_1/"
+    command = "npm run build" 
