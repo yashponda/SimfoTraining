@@ -1,0 +1,131 @@
+.meals_summary{
+    width: 590px;
+    height: 190px;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin-left: 366px;
+    margin-top: -95px;
+    border-radius: 25px;
+    background-color: #000000c7;
+    position: relative;
+    z-index: 2;
+}
+.meal_box{
+    width: 715px;
+    height: 100px;
+    margin: 0px;
+    margin-left: 19%;
+    text-align: left;
+    list-style: none;
+    background-color: #f1f1f1c2;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+.meal_name{
+    font-weight: 800;
+    font-size: large;
+}
+.meal_description{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    display: inline-block;
+    margin-top: 5px;
+}
+.meal_price{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.meal_box_add{
+    display: inline-flex;
+}
+.parent_form{
+    background-color: tomato;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 87px;
+}
+.old_form{
+    padding: 21px;
+    margin-left: -230px;
+    margin-right: 106px;
+    margin-top: -4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-flex;
+    justify-content: space-around;
+    position: absolute;
+}
+.form{
+
+}
+.form button{
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    background-color: #95564ca8;
+    width: 60px;
+    height: 28px;
+    margin-top: 36px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.form button:hover,
+.form button:active{
+    background-color: #f1f1f1 ;
+    color: black;
+}
+#amount{
+    width: 26px;
+    text-align: center;
+    margin-left: 6px;
+}
+.item_txt{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+.item_btn{
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    background-color: #95564ca8;
+    width: 60px;
+    height: 28px;
+    margin-left: -192px;
+    margin-top: 36px;
+    cursor: pointer;
+}
+.item_btn:hover{
+    background-color: #f1f1f1 ;
+    color: black;
+}
+.meal {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 238px;
+    padding: 25px;
+    border-radius: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: lavender;
+    width: 58%;
+    align-items: center;
+}  
+.meal h3 {
+    margin: 0 0 0.25rem 0;
+}  
+.description {
+    font-style: italic;
+}  
+.price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+}
