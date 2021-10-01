@@ -1,0 +1,54 @@
+.photo{
+    display: inline-block;
+    margin-right: 40%;
+}
+.all_inputs{
+    display: grid;   
+}
+.lables{
+    margin: 5px;
+    text-align: left;
+    margin-left: 109px;
+}
+.all_input{
+    padding: 10px;
+    width: 30%;
+    margin-left: 8%;
+    border-radius: 5px;
+    background-color: #ffede69e;
+    border: 1px solid #dcd7d5;
+    margin-bottom: 12px;
+}
+.input_img_flex{
+    margin-bottom: -73px;
+}
+.girl_img{
+    position: static;
+    margin-top: -490px;
+    margin-left: 730px;
+    display: inline-block;
+
+}
+.btns{
+    display: flex;
+    margin-left: 8.2%;
+    height: 36px;
+    border-radius: 5px;
+}
+.submit{
+    width: 86px;
+    background-color: #019efafa ;
+    color: white;
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resat{
+    width: 86px;
+    background-color: rgb(224, 108, 108);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
